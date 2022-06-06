@@ -1,0 +1,193 @@
+html{
+    overflow-x: hidden;
+}
+
+body {
+    background: #ec008c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,  #ec008c, #fc6767);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec008c, #fc6767 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* ------------------------------------------index.html-------------------------------------------------- */
+/* Barra de Navegación */
+.barraNav{
+    background: rgb(44, 42, 42);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.navMenu{
+    padding-right: 1em;
+}
+
+/* Banner de página */
+.banner{
+    width: 100%;
+    height: 600px;
+}
+
+/* Pie de página */
+footer{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+footer p, a{
+    color: #000;
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 0em;
+}
+
+footer a:hover{
+    color: #000;
+}
+
+.imgFoot{
+    margin: 0 auto;
+    padding: 0em 0em 0em 4em;
+}
+
+.imgFoot img{
+    width: 120px;
+}
+
+.txtIzq{
+    margin: 0em 0em 0em 2em;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.txtDer{
+    margin: 0em 2em 0em 0em;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.txtDer a{
+    padding: 0;
+    margin-right: 1em;
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+.titulo{
+    text-align: center;
+    padding: 2em;
+    margin: 2em;
+}
+
+.columna {
+    display: flex;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: center;
+}
+
+.columna p{
+    padding: 1em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.producto{
+    padding: 1em;
+    margin-bottom: 4em;
+}
+
+.infoProd {
+    background-color: #fff;
+}
+
+.producto-image{
+    max-width: 610px;
+    height:500px;
+}
+
+.bebida-image {
+    width: 610px;
+    height: 810px;
+}
+
+.postre-image {
+    width: 610px;
+    height: 390px;
+}
+
+.titTabla {
+    padding: 1.5em 0em;
+    background-color: #fff;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+.logoResto {
+    padding-left: 90%;
+}
+
+.logoResto img {
+    width: 130px;
+}
+
+.login{
+    padding-right: 15%;
+    padding-left: 50%;
+    padding-top: 0%;
+    padding-bottom: 10%;
+}
+
+.titLogin {
+    text-align: center;
+    padding: 2em;
+}
+
+.tildar {
+    margin: 2em 0em 1em;
+}
+
+.redSocial{
+    margin: 2em auto;
+}
+
+.redSocial button {
+    width: 16em;
+    height: 3em;
+}
+
+.redSocial h3 {
+    text-align: center;
+}
+
+.registro {
+    margin-top: 1.2em;
+}
+
+.registro span {
+    font-size: 1.1em;
+}
+
+.registro a{
+    color: rgb(48, 46, 184);
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+
+
+
+
+/* 
+.cerveza {
+    height: 845px;
+}
+
+.ron {
+    height: 400px;
+}
+
+.hambur {
+    height: 295px;
+} */
